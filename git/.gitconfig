@@ -1,0 +1,14 @@
+[user]
+	name = Heikki Hokkanen
+	email = hoxu@users.sf.net
+[alias]
+	st = status
+	staged = diff --cached
+	outgoing = log @{u}..
+	outgoing-all = log --branches --not --remotes --simplify-by-decoration --decorate --oneline
+[color]
+	ui = true
+[core]
+	quotepath = false
+[push]
+	default = simple
