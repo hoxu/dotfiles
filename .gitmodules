@@ -7,3 +7,6 @@
 [submodule "vim/.vim/bundle/vim-stylus"]
 	path = vim/.vim/bundle/vim-stylus
 	url = git://github.com/wavded/vim-stylus.git
+[submodule "vim/.vim/bundle/vim-ansible-yaml"]
+	path = vim/.vim/bundle/vim-ansible-yaml
+	url = git://github.com/chase/vim-ansible-yaml.git
