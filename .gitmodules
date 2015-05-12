@@ -13,3 +13,6 @@
 [submodule "vim/.vim/bundle/vim-ctrlspace"]
 	path = vim/.vim/bundle/vim-ctrlspace
 	url = git://github.com/szw/vim-ctrlspace
+[submodule "vim/.vim/bundle/editorconfig-vim"]
+	path = vim/.vim/bundle/editorconfig-vim
+	url = git://github.com/editorconfig/editorconfig-vim
