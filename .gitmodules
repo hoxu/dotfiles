@@ -10,3 +10,6 @@
 [submodule "vim/.vim/bundle/vim-ansible-yaml"]
 	path = vim/.vim/bundle/vim-ansible-yaml
 	url = git://github.com/chase/vim-ansible-yaml.git
+[submodule "vim/.vim/bundle/vim-ctrlspace"]
+	path = vim/.vim/bundle/vim-ctrlspace
+	url = git://github.com/szw/vim-ctrlspace
