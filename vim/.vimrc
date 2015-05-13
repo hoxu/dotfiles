@@ -8,7 +8,7 @@ set wh=999
 set dir=~/.vim/tmp//
 
 " show tabs and trailing characters
-set listchars=tab:»·,trail:·
+set listchars=tab:»·,trail:·,nbsp:˽
 set list
 
 " incremental highlighted search
