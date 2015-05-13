@@ -24,3 +24,11 @@ filetype plugin indent on
 set tabstop=4 shiftwidth=4
 
 colorscheme elflord
+
+set scrolloff=1
+set showmatch
+set wildmenu
+
+" Custom keybindings
+inoremap <F5> <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
+inoremap <F6> <C-R>=strftime("%Y-%m-%d")<CR>
