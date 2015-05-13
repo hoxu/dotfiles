@@ -14,6 +14,7 @@ set list
 " incremental highlighted search
 set incsearch
 set hlsearch
+set ignorecase
 
 " https://github.com/kchmck/vim-coffee-script
 call pathogen#infect()
