@@ -6,6 +6,8 @@
 	staged = diff --cached
 	outgoing = log @{u}..
 	outgoing-all = log --branches --not --remotes --simplify-by-decoration --decorate --oneline
+	incoming = log ..@{u}
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
 [color]
 	ui = true
 [core]
