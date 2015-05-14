@@ -12,3 +12,5 @@
 	quotepath = false
 [push]
 	default = simple
+[grep]
+	lineNumber = true
