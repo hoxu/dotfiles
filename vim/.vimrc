@@ -32,3 +32,8 @@ set wildmenu
 " Custom keybindings
 inoremap <F5> <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
 inoremap <F6> <C-R>=strftime("%Y-%m-%d")<CR>
+
+augroup vagrant
+	au!
+	au BufRead,BufNewFile Vagrantfile set filetype=ruby
+augroup END
