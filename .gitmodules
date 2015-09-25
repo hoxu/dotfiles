@@ -28,3 +28,6 @@
 [submodule "vim/.vim/bundle/emmet-vim"]
 	path = vim/.vim/bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
+[submodule "vim/.vim/bundle/ctrlp.vim"]
+	path = vim/.vim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
