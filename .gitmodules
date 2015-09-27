@@ -31,3 +31,6 @@
 [submodule "vim/.vim/bundle/ctrlp.vim"]
 	path = vim/.vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "vim/.vim/bundle/MatchTagAlways"]
+	path = vim/.vim/bundle/MatchTagAlways
+	url = https://github.com/valloric/MatchTagAlways
