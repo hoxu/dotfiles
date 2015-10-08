@@ -37,3 +37,6 @@ augroup vagrant
 	au!
 	au BufRead,BufNewFile Vagrantfile set filetype=ruby
 augroup END
+
+" ctrlp: ignore bower and node files
+let g:ctrlp_custom_ignore = '\v[\/](bower_components|node_modules)$'
