@@ -40,3 +40,7 @@ augroup END
 
 " ctrlp: ignore bower and node files
 let g:ctrlp_custom_ignore = '\v[\/](bower_components|node_modules)$'
+
+" Reload changed files automatically
+au FocusGained,BufEnter * checktime
+set autoread
