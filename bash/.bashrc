@@ -119,6 +119,8 @@ if [ -f ~/.git-prompt.sh ]; then
     export PS1='\t \u@\h:\w$(__git_ps1 " (%s)")\$ '
 fi
 
-export PROMPT_COMMAND='echo -ne "\033k${USER}@${HOSTNAME}:${PWD/#$HOME/\~}\033\\"'
+if [ -n "${TMUX:-}" ]; then
+    export PROMPT_COMMAND='echo -ne "\033k${USER}@${HOSTNAME}:${PWD/#$HOME/\~}\033\\"'
+fi
 
 # LOCAL CHANGES BELOW
