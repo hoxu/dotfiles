@@ -116,6 +116,6 @@ export PATH=$PATH:/usr/sbin:/sbin
 
 if [ -f ~/.git-prompt.sh ]; then
     source ~/.git-prompt.sh
-    export PS1='\u@\h:\w$(__git_ps1 " (%s)")\$ '
+    export PS1='\t \u@\h:\w$(__git_ps1 " (%s)")\$ '
 fi
 # LOCAL CHANGES BELOW
