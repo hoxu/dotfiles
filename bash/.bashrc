@@ -118,4 +118,7 @@ if [ -f ~/.git-prompt.sh ]; then
     source ~/.git-prompt.sh
     export PS1='\t \u@\h:\w$(__git_ps1 " (%s)")\$ '
 fi
+
+export PROMPT_COMMAND='echo -ne "\033k${USER}@${HOSTNAME}:${PWD/#$HOME/\~}\033\\"'
+
 # LOCAL CHANGES BELOW
