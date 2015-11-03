@@ -44,3 +44,7 @@ let g:ctrlp_custom_ignore = '\v[\/](bower_components|node_modules)$'
 " Reload changed files automatically
 au FocusGained,BufEnter * checktime
 set autoread
+
+" Get rid of delay with C-c on SQL files
+" http://unix.stackexchange.com/questions/150093/vim-delay-when-using-ctrlc-but-only-in-sql-files
+let g:ftplugin_sql_omni_key = '<C-j>'
