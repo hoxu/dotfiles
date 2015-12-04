@@ -20,3 +20,10 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
+
+for i in ~/.gem/ruby/2.0.0/bin/
+do
+    if [ -d "$i" ]; then
+        PATH="$i:$PATH"
+    fi
+done
